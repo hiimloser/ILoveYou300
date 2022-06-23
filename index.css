@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background: url("./assets/pngtree-beautiful-love-card-poster-background-with-hearts-balloons-image_308309.jpg");
+  background-position: center top;
+  background-size: 100%;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+.image-slider {
+  padding-bottom: 20px;
+}
+.image-item {
+  margin: 0 10px;
+}
+.image {
+  height: 500px;
+  margin-bottom: 20px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 100rem;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  transition: 2s;
+}
+
+.slick-dots .slick-active button {
+  background-color: #de474c;
+}
+.goodluck {
+  padding-bottom: 20px;
+}
+@media (max-width: 1366px) {
+  .goodluck img {
+    width: 100%;
+  }
+}
